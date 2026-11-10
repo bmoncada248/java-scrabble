@@ -47,9 +47,9 @@ java -jar scrabble.jar dictionaries_and_examples/sowpods.txt dictionaries_and_ex
 ## Screenshots
 
 ### Game in Progress
-![Scrabble Gameplay](screenshots/gameplay.png)
+![Scrabble Gameplay](screenshots/gameplay.PNG)
 
 ### Starting Board
-![Scrabble starting board](screenshots/game-start.png)
+![Scrabble starting board](screenshots/game-start.PNG)
 ## Bugs
 There are no known bugs. 

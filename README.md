@@ -41,15 +41,15 @@ has a legal move. At the end of the game, unplayed tile values are deducted from
 their tiles, the value of the other player's remaining tiles is added to their score.
 
 ## How to Run
-Requires Java 25.
-Run the Scrabble GUI from the project directory:
+Requires Java 25.\
+Run the Scrabble GUI from the project directory:\
 java -jar scrabble.jar dictionaries_and_examples/sowpods.txt dictionaries_and_examples/scrabble_board.txt
 ## Screenshots
 
 ### Game in Progress
-![Scrabble Gameplay](screenshots/Scrabble GUI2.png)
+![Scrabble Gameplay](screenshots/gameplay.png)
 
 ### Starting Board
-![Scrabble starting board](screenshots/Scrabble GUI.png)
+![Scrabble starting board](screenshots/game-start.png)
 ## Bugs
 There are no known bugs. 

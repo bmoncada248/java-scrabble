@@ -1,4 +1,4 @@
-# Project 3 - Scrabble
+# Java Scrabble Game & Solver
 This project implements Scrabble. It contains three seperate
 runnable programs:\
 scorechecker.jar - checks whether a play is legal and calculates its score.\
@@ -39,6 +39,17 @@ handled by trying possible letters while keeping the blank's score equal to zero
 The game ends when all tiles have been drawn and a player uses their last tile, or when the bag is empty and neither player
 has a legal move. At the end of the game, unplayed tile values are deducted from the player's score. If one player uses all
 their tiles, the value of the other player's remaining tiles is added to their score.
+
+## How to Run
+Requires Java 25.
+Run the Scrabble GUI from the project directory:
+java -jar scrabble.jar dictionaries_and_examples/sowpods.txt dictionaries_and_examples/scrabble_board.txt
+## Screenshots
+
+### Game in Progress
+![Scrabble Gameplay](screenshots/Scrabble GUI2.png)
+
+### Starting Board
+![Scrabble starting board](screenshots/Scrabble GUI.png)
 ## Bugs
-There are no known bugs. I had one bug with whitespace in my scorechecker, but it should be fixed now. My GUI also doesn't handle expanding the window very well
-so I suggest keeping the window the size it comes up...
+There are no known bugs. 
